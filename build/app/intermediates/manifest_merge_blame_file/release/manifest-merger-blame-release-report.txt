@@ -1,0 +1,700 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kora_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-67
+11-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+12-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+13-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+13-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-77
+14-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-74
+15    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+15-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-89
+15-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-86
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+16-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-66
+17-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-63
+18    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+18-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+18-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+19-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-79
+19-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-76
+20    <uses-permission
+20-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:10:5-12:38
+21        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+21-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:11:9-77
+22        android:maxSdkVersion="22" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:12:9-35
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\aliso\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\aliso\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:26:22-79
+24
+25    <permission
+25-->[androidx.core:core:1.10.1] C:\Users\aliso\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+26        android:name="com.example.kora_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.10.1] C:\Users\aliso\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.10.1] C:\Users\aliso\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.example.kora_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+29-->[androidx.core:core:1.10.1] C:\Users\aliso\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.10.1] C:\Users\aliso\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+30    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+31    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+32    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+33    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+34    <!-- for Samsung -->
+35    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+36    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+37    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+38    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+39    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+40    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+41    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+41-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+41-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+42    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+42-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+43    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+44    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+45    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+46    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+47    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+48    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+49    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+50    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\aliso\.gradle\caches\transforms-3\5d707212e8a721d6ac07644c307a7ef1\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+51
+52    <application
+53        android:name="android.app.Application"
+53-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:4:9-42
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.10.1] C:\Users\aliso\.gradle\caches\transforms-3\dc5b1733b493234eecba2c1dfa5bfc01\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+55        android:icon="@mipmap/ic_launcher"
+55-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:5:9-43
+56        android:label="Kora" >
+56-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:3:9-29
+57        <activity
+57-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:6:9-26:20
+58            android:name="com.example.kora_app.MainActivity"
+58-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:7:13-41
+59            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+59-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:11:13-163
+60            android:exported="true"
+60-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:8:13-36
+61            android:hardwareAccelerated="true"
+61-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:12:13-47
+62            android:launchMode="singleTop"
+62-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:9:13-43
+63            android:theme="@style/LaunchTheme"
+63-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:10:13-47
+64            android:windowSoftInputMode="adjustResize" >
+64-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:13:13-55
+65
+66            <!--
+67                 Specifies an Android theme to apply to this Activity as soon as
+68                 the Android process has started. This theme is visible to the user
+69                 while the Flutter UI initializes. After that, this theme continues
+70                 to determine the Window background behind the Flutter UI.
+71            -->
+72            <meta-data
+72-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:18:13-21:17
+73                android:name="io.flutter.embedding.android.NormalTheme"
+73-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:19:15-70
+74                android:resource="@style/NormalTheme" />
+74-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:20:15-52
+75
+76            <intent-filter>
+76-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:22:13-25:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:23:17-68
+77-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:23:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:24:17-76
+79-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:24:27-74
+80            </intent-filter>
+81        </activity>
+82        <!--
+83             Don't delete the meta-data below.
+84             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+85        -->
+86        <meta-data
+86-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:29:9-31:33
+87            android:name="flutterEmbedding"
+87-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:30:13-44
+88            android:value="2" />
+88-->C:\Users\aliso\AndroidStudioProjects\kora_app\android\app\src\main\AndroidManifest.xml:31:13-30
+89
+90        <service
+90-->[:firebase_auth] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+91            android:name="com.google.firebase.components.ComponentDiscoveryService"
+91-->[:firebase_auth] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:68:13-37
+94            <meta-data
+94-->[:firebase_auth] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+95-->[:firebase_auth] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_auth] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[:firebase_storage] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+98-->[:firebase_storage] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-126
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_storage] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[:cloud_firestore] C:\Users\aliso\AndroidStudioProjects\kora_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+101-->[:cloud_firestore] C:\Users\aliso\AndroidStudioProjects\kora_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:cloud_firestore] C:\Users\aliso\AndroidStudioProjects\kora_app\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+103            <meta-data
+103-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
+104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+104-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
+106            <meta-data
+106-->[:firebase_core] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+107                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+107-->[:firebase_core] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[:firebase_core] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:69:13-71:85
+110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+110-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:70:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:71:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\aliso\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+113-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\aliso\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\aliso\.gradle\caches\transforms-3\ec908ab67f3394c75f41646a892892c9\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\aliso\.gradle\caches\transforms-3\df0c53691d16d7f2b00edf4f12834dbe\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:17:13-19:85
+116                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+116-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\aliso\.gradle\caches\transforms-3\df0c53691d16d7f2b00edf4f12834dbe\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:18:17-111
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-firestore:24.8.1] C:\Users\aliso\.gradle\caches\transforms-3\df0c53691d16d7f2b00edf4f12834dbe\transformed\jetified-firebase-firestore-24.8.1\AndroidManifest.xml:19:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:53:13-55:85
+119                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+119-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:54:17-119
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:55:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\aliso\.gradle\caches\transforms-3\8731423b0e00dcbf6cdd10fa5570f09e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+122                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+122-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\aliso\.gradle\caches\transforms-3\8731423b0e00dcbf6cdd10fa5570f09e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\aliso\.gradle\caches\transforms-3\8731423b0e00dcbf6cdd10fa5570f09e\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\aliso\.gradle\caches\transforms-3\69b33f3cab57c77efa95dec49a66ffb2\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:15:13-17:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\aliso\.gradle\caches\transforms-3\69b33f3cab57c77efa95dec49a66ffb2\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:16:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:17.1.4] C:\Users\aliso\.gradle\caches\transforms-3\69b33f3cab57c77efa95dec49a66ffb2\transformed\jetified-firebase-installations-17.1.4\AndroidManifest.xml:17:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\aliso\.gradle\caches\transforms-3\3c79e5c9c586da43f9b10276651ab3f9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+128                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+128-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\aliso\.gradle\caches\transforms-3\3c79e5c9c586da43f9b10276651ab3f9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\aliso\.gradle\caches\transforms-3\3c79e5c9c586da43f9b10276651ab3f9\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+130        </service>
+131        <service
+131-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+132-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
+133            android:exported="false"
+133-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
+135        <service
+135-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
+136            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+136-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
+137            android:exported="false" >
+137-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+138            <intent-filter>
+138-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+139-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+139-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+140            </intent-filter>
+141        </service>
+142
+143        <receiver
+143-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
+144            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+144-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
+145            android:exported="true"
+145-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
+146            android:permission="com.google.android.c2dm.permission.SEND" >
+146-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
+147            <intent-filter>
+147-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+148                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+148-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+148-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+149            </intent-filter>
+150        </receiver>
+151
+152        <provider
+152-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
+153            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+153-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
+154            android:authorities="com.example.kora_app.flutterfirebasemessaginginitprovider"
+154-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
+155            android:exported="false"
+155-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
+156            android:initOrder="99" />
+156-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
+157        <provider
+157-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+158            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+158-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+159            android:authorities="com.example.kora_app.flutter.image_provider"
+159-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+160            android:exported="false"
+160-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+161            android:grantUriPermissions="true" >
+161-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+162            <meta-data
+162-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+163                android:name="android.support.FILE_PROVIDER_PATHS"
+163-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+164                android:resource="@xml/flutter_image_picker_file_paths" />
+164-->[:image_picker_android] C:\Users\aliso\AndroidStudioProjects\kora_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+165        </provider>
+166
+167        <receiver
+167-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:39
+168            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+168-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-89
+169            android:exported="true" />
+169-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-36
+170        <receiver
+170-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-20:39
+171            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+171-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-92
+172            android:exported="true" />
+172-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-36
+173        <receiver
+173-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-23:39
+174            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+174-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-92
+175            android:exported="true" />
+175-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+176        <receiver
+176-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-38:20
+177            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+177-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-87
+178            android:enabled="true"
+178-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-35
+179            android:exported="true" >
+179-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+180            <intent-filter>
+180-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37:29
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+181-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+182
+183                <action android:name="android.intent.action.BOOT_COMPLETED" />
+183-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+183-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+184                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+184-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-86
+184-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:25-83
+185                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+185-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-84
+185-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-81
+186                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+186-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:17-82
+186-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:25-79
+187                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+187-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-82
+187-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:25-79
+188                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+188-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:17-107
+188-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:25-104
+189            </intent-filter>
+190        </receiver>
+191
+192        <service
+192-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:72
+193            android:name="me.carda.awesome_notifications.DartBackgroundService"
+193-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-80
+194            android:exported="false"
+194-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-69
+196        <service
+196-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-49:43
+197            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+197-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-90
+198            android:enabled="true"
+198-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-35
+199            android:exported="false"
+199-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-37
+200            android:foregroundServiceType="phoneCall"
+200-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-54
+201            android:stopWithTask="true" />
+201-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-40
+202
+203        <receiver
+203-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-18:40
+204            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+204-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-91
+205            android:exported="false" />
+205-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+206        <receiver
+206-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-21:40
+207            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+207-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-97
+208            android:exported="false" />
+208-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+209        <receiver
+209-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-31:20
+210            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+210-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-101
+211            android:exported="false" >
+211-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+212            <intent-filter>
+212-->[:flutter_local_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30:29
+213                <action android:name="android.intent.action.BOOT_COMPLETED" />
+213-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+213-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+214                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+214-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-84
+214-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-81
+215                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+215-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:17-82
+215-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:25-79
+216                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+216-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-82
+216-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:25-79
+217            </intent-filter>
+218        </receiver>
+219
+220        <service
+220-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:21:9-28:19
+221            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+221-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:22:13-89
+222            android:exported="true"
+222-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:23:13-36
+223            android:label="My Notification Listener Service" >
+223-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:24:13-61
+224            <intent-filter>
+224-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:25:13-27:29
+225                <action android:name="android.service.notification.NotificationListenerService" />
+225-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:26:17-99
+225-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\aliso\.gradle\caches\transforms-3\5c34a6389cb0b93a15edc4aadebcacce\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:26:25-96
+226            </intent-filter>
+227        </service>
+228        <service
+228-->[androidx.room:room-runtime:2.5.0] C:\Users\aliso\.gradle\caches\transforms-3\a5e62e1b04c2d204cfb6e5e2c0b33520\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+229            android:name="androidx.room.MultiInstanceInvalidationService"
+229-->[androidx.room:room-runtime:2.5.0] C:\Users\aliso\.gradle\caches\transforms-3\a5e62e1b04c2d204cfb6e5e2c0b33520\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+230            android:directBootAware="true"
+230-->[androidx.room:room-runtime:2.5.0] C:\Users\aliso\.gradle\caches\transforms-3\a5e62e1b04c2d204cfb6e5e2c0b33520\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+231            android:exported="false" />
+231-->[androidx.room:room-runtime:2.5.0] C:\Users\aliso\.gradle\caches\transforms-3\a5e62e1b04c2d204cfb6e5e2c0b33520\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+232
+233        <activity
+233-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:29:9-46:20
+234            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+234-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:30:13-80
+235            android:excludeFromRecents="true"
+235-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:31:13-46
+236            android:exported="true"
+236-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:32:13-36
+237            android:launchMode="singleTask"
+237-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:33:13-44
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+238-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:34:13-72
+239            <intent-filter>
+239-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:35:13-45:29
+240                <action android:name="android.intent.action.VIEW" />
+240-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:17-69
+240-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:25-66
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+242-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+243                <category android:name="android.intent.category.BROWSABLE" />
+243-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:17-78
+243-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:27-75
+244
+245                <data
+245-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:41:17-44:51
+246                    android:host="firebase.auth"
+246-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:42:21-49
+247                    android:path="/"
+247-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:43:21-37
+248                    android:scheme="genericidp" />
+248-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:44:21-48
+249            </intent-filter>
+250        </activity>
+251        <activity
+251-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:47:9-64:20
+252            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+252-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:48:13-79
+253            android:excludeFromRecents="true"
+253-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:49:13-46
+254            android:exported="true"
+254-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:50:13-36
+255            android:launchMode="singleTask"
+255-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:51:13-44
+256            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+256-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:52:13-72
+257            <intent-filter>
+257-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:53:13-63:29
+258                <action android:name="android.intent.action.VIEW" />
+258-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:17-69
+258-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:36:25-66
+259
+260                <category android:name="android.intent.category.DEFAULT" />
+260-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+260-->[:awesome_notifications] C:\Users\aliso\AndroidStudioProjects\kora_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+261                <category android:name="android.intent.category.BROWSABLE" />
+261-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:17-78
+261-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:39:27-75
+262
+263                <data
+263-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:41:17-44:51
+264                    android:host="firebase.auth"
+264-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:42:21-49
+265                    android:path="/"
+265-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:43:21-37
+266                    android:scheme="recaptcha" />
+266-->[com.google.firebase:firebase-auth:22.1.2] C:\Users\aliso\.gradle\caches\transforms-3\5a9c1a38732583874525b12c1c2e151a\transformed\jetified-firebase-auth-22.1.2\AndroidManifest.xml:44:21-48
+267            </intent-filter>
+268        </activity>
+269
+270        <receiver
+270-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:29:9-36:20
+271            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+271-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:30:13-78
+272            android:exported="true"
+272-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:31:13-36
+273            android:permission="com.google.android.c2dm.permission.SEND" >
+273-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:32:13-73
+274            <intent-filter>
+274-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+275                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+275-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+275-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+276            </intent-filter>
+277        </receiver>
+278        <!--
+279             FirebaseMessagingService performs security checks at runtime,
+280             but set to not exported to explicitly avoid allowing another app to call it.
+281        -->
+282        <service
+282-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:42:9-49:19
+283            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+283-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:43:13-82
+284            android:directBootAware="true"
+284-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:44:13-43
+285            android:exported="false" >
+285-->[com.google.firebase:firebase-messaging:23.2.1] C:\Users\aliso\.gradle\caches\transforms-3\4709cb26ac291d6a20b5677580df100c\transformed\jetified-firebase-messaging-23.2.1\AndroidManifest.xml:45:13-37
+286            <intent-filter android:priority="-500" >
+286-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+287                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+287-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+287-->[:firebase_messaging] C:\Users\aliso\AndroidStudioProjects\kora_app\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+288            </intent-filter>
+289        </service>
+290
+291        <provider
+291-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+292            android:name="com.google.firebase.provider.FirebaseInitProvider"
+292-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+293            android:authorities="com.example.kora_app.firebaseinitprovider"
+293-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+294            android:directBootAware="true"
+294-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+295            android:exported="false"
+295-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+296            android:initOrder="100" />
+296-->[com.google.firebase:firebase-common:20.3.3] C:\Users\aliso\.gradle\caches\transforms-3\cdee480617d8040e445d3cb851e491ba\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+297
+298        <activity
+298-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aliso\.gradle\caches\transforms-3\7978d9ef3b332cd80992fa56b50f7f56\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+299            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+299-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aliso\.gradle\caches\transforms-3\7978d9ef3b332cd80992fa56b50f7f56\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+300            android:exported="false"
+300-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aliso\.gradle\caches\transforms-3\7978d9ef3b332cd80992fa56b50f7f56\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+301            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+301-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\aliso\.gradle\caches\transforms-3\7978d9ef3b332cd80992fa56b50f7f56\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+302
+303        <meta-data
+303-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\aliso\.gradle\caches\transforms-3\4ef8e7d9a60cff636871604cf50e4184\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+304            android:name="com.google.android.gms.version"
+304-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\aliso\.gradle\caches\transforms-3\4ef8e7d9a60cff636871604cf50e4184\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+305            android:value="@integer/google_play_services_version" />
+305-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\aliso\.gradle\caches\transforms-3\4ef8e7d9a60cff636871604cf50e4184\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+306
+307        <uses-library
+307-->[androidx.window:window:1.0.0-beta04] C:\Users\aliso\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+308            android:name="androidx.window.extensions"
+308-->[androidx.window:window:1.0.0-beta04] C:\Users\aliso\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+309            android:required="false" />
+309-->[androidx.window:window:1.0.0-beta04] C:\Users\aliso\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+310        <uses-library
+310-->[androidx.window:window:1.0.0-beta04] C:\Users\aliso\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+311            android:name="androidx.window.sidecar"
+311-->[androidx.window:window:1.0.0-beta04] C:\Users\aliso\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+312            android:required="false" />
+312-->[androidx.window:window:1.0.0-beta04] C:\Users\aliso\.gradle\caches\transforms-3\43bc8ed9b6db7f25db0bc2b571e801e5\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+313
+314        <provider
+314-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+315            android:name="androidx.startup.InitializationProvider"
+315-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+316            android:authorities="com.example.kora_app.androidx-startup"
+316-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+317            android:exported="false" >
+317-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+318            <meta-data
+318-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+319                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+319-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+320                android:value="androidx.startup" />
+320-->[androidx.emoji2:emoji2:1.2.0] C:\Users\aliso\.gradle\caches\transforms-3\ade9680713ae525080d0c034ed182a83\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+321            <meta-data
+321-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\aliso\.gradle\caches\transforms-3\26591602307cad9a6b77d002f77e4f11\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+322                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+322-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\aliso\.gradle\caches\transforms-3\26591602307cad9a6b77d002f77e4f11\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+323                android:value="androidx.startup" />
+323-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\aliso\.gradle\caches\transforms-3\26591602307cad9a6b77d002f77e4f11\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+324            <meta-data
+324-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+325                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+325-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+326                android:value="androidx.startup" />
+326-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+327        </provider>
+328
+329        <receiver
+329-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+330            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+330-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+331            android:directBootAware="false"
+331-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+332            android:enabled="true"
+332-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+333            android:exported="true"
+333-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+334            android:permission="android.permission.DUMP" >
+334-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+335            <intent-filter>
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+336                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+336-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+336-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+337            </intent-filter>
+338            <intent-filter>
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+339                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+339-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+339-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+340            </intent-filter>
+341            <intent-filter>
+341-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+342                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+342-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+342-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+343            </intent-filter>
+344            <intent-filter>
+344-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+345                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+345-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+345-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\aliso\.gradle\caches\transforms-3\9d46ae6bcd2d33e8e359b178a61b1048\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+346            </intent-filter>
+347        </receiver>
+348
+349        <service
+349-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+350            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+350-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+351            android:exported="false" >
+351-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+352            <meta-data
+352-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+353                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+353-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+354                android:value="cct" />
+354-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\13e8d01da674715e0e67175b54957afd\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+355        </service>
+356        <service
+356-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+357            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+357-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+358            android:exported="false"
+358-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+359            android:permission="android.permission.BIND_JOB_SERVICE" >
+359-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+360        </service>
+361
+362        <receiver
+362-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+363            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+363-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+364            android:exported="false" />
+364-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\aliso\.gradle\caches\transforms-3\031e785ae6f8e945299066fed89d4d4e\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+365    </application>
+366
+367</manifest>

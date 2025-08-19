@@ -1,0 +1,4 @@
+#Wed Nov 01 14:36:04 CST 2023
+base.0=C\:\\Users\\aliso\\AndroidStudioProjects\\kora_app\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
