@@ -44,7 +44,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBYkXCDwdnUuX2mUOEMnYoCdC_762QTHj8',
+    apiKey: 'apiKey',
     appId: '1:990853009165:web:ffe9df1e05f2c87e0d6a44',
     messagingSenderId: '990853009165',
     projectId: 'kora-mhapp',
@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAkxNWC6Jg6H9sgbpZiF_W1unU-5iIopu0',
+    apiKey: 'apiKey',
     appId: '1:990853009165:android:d63b131306ffa15d0d6a44',
     messagingSenderId: '990853009165',
     projectId: 'kora-mhapp',
@@ -62,7 +62,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCQgLxQlCf2pasZCMgEreakhwjLBijkOzQ',
+    apiKey: 'apiKey',
     appId: '1:990853009165:ios:e1a22988c3f3ecf40d6a44',
     messagingSenderId: '990853009165',
     projectId: 'kora-mhapp',
@@ -71,7 +71,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCQgLxQlCf2pasZCMgEreakhwjLBijkOzQ',
+    apiKey: 'apiKey',
     appId: '1:990853009165:ios:df7e3c3353a191e20d6a44',
     messagingSenderId: '990853009165',
     projectId: 'kora-mhapp',

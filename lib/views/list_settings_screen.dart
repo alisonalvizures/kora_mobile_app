@@ -47,7 +47,7 @@ class _ListSettingScreenState extends State<ListSettingScreen>
       Uri.parse('https://fcm.googleapis.com/fcm/send'),
       headers: <String, String>{
         'Content-Type': 'application/json',
-        'Authorization': 'key=AAAA5rNxDw0:APA91bGdhodXmUFLpaWvwW2VUEPLVpWABl5z8mLcNQRf_EEojPy-8tmKUyt3-x45aUS2fbP54d--AyCNdsyqOAnaxZkWUVAGnpjvH_PbG0xrmVnkWE3hBZfQqTFSVFr7Guz4wFebZas2',
+        'Authorization': 'key=key',
       },
       body: dataNotifications,
     );

@@ -19,7 +19,7 @@ const channel = AndroidNotificationChannel(
 
 class NotificationsService {
   static const key =
-      'AAAA5rNxDw0:APA91bGdhodXmUFLpaWvwW2VUEPLVpWABl5z8mLcNQRf_EEojPy-8tmKUyt3-x45aUS2fbP54d--AyCNdsyqOAnaxZkWUVAGnpjvH_PbG0xrmVnkWE3hBZfQqTFSVFr7Guz4wFebZas2';
+      'key';
 
   final flutterLocalNotificationsPlugin =
   FlutterLocalNotificationsPlugin();
